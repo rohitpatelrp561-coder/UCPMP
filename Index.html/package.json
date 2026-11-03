@@ -1,0 +1,13 @@
+{
+  "name": "ucpmp-compliance-bot",
+  "version": "1.0.0",
+  "description": "Chatbot that reviews brand reminder images against UCPMP 2024",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0"
+  }
+}
